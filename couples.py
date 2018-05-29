@@ -6,7 +6,7 @@ def counte_different_couples(text):
     counter = 0
     for i in range(0, len_of_string // 2):
         if text[i] == text[len_of_string - 1 - i] and text[i] != " ":
-            counter = counter + 1
+            counter += 1
     return counter
 
 
